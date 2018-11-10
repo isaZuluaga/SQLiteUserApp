@@ -67,9 +67,9 @@ public class RegistrarCliente extends AppCompatActivity {
 
             db.close();
             Toast.makeText(this, "Usuario añadido exitosamente a la bd local", Toast.LENGTH_SHORT).show();
-            //regIdCliente.setText("");
-            //regNomCliente.setText("");
-            //regApellCliente.setText("");
+            regIdCliente.setText("");
+            regNomCliente.setText("");
+            regApellCliente.setText("");
 
 
     }
